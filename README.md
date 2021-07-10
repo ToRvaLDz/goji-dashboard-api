@@ -1,11 +1,11 @@
-chaingreen-Api
+goji-Api
 ======
 
 ## Usage example
 
 ```js
 const { readFileSync } = require('fs');
-const { Connection, constants, ApiClient } = require('chaingreen-api');
+const { Connection, constants, ApiClient } = require('goji-api');
 
 (async () => {
   const conn = new Connection('localhost:55400', {
